@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000; /* Black page background color */
+    }
+
+    .navbar {
+      background-color: #fff; /* White navbar background color */
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      transition: 0.5s;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #2196F3; /* Dark blue text color */
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: #000; /* Black text color on hover */
+    }
+
+    .navbar a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .navbar-left {
+      animation: moveFromLeft 1s ease-in-out;
+    }
+
+    .navbar-right {
+      animation: moveFromRight 1s ease-in-out;
+    }
+
+    @keyframes moveFromLeft {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes moveFromRight {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar navbar-left">
+ <a href="Pokemon Radical Red Version.html" target="_blank">Radical Red</a>
+ <a href="PK EMR Kaizo v2.html" target="_blank">Emerald Kaizo</a>
+ <a href="PK Theta EM 721 Ex 27-02-17.html" target="_blank">Theta Emerald</a>
+ <a href="Pokemon Unbound.html" target="_blank">Pokemon Unbound</a>
+ <a href="Pokemon Emerald Rogue EX.html" target="_blank">Emerald rogue</a>
+ <a href="Street Fighter Alpha 3 (U) (1).html" target="_blank">Street Fighter</a>
+ <a href="1986 - Pokemon Emerald Exceeded.html" target="_blank">Pokemon Emerald Exceeded</a>
+
+</div>
+
+</body>
+</html>
